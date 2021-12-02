@@ -1,0 +1,32 @@
+header#header {
+    width: 100%;
+    padding: 0 30px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav#navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+nav#navbar ul li {
+    display: inline-block;
+    list-style: none;
+    padding: 0 30px;
+}
+
+nav#navbar ul li a {
+    font-family: Fira Code;
+    text-decoration: none;
+    color: #222024;
+}
+
+nav#navbar ul li a:hover {
+    color: red;
+}
